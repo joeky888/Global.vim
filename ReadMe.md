@@ -37,10 +37,9 @@ Example
 ```
 
 1. Save it to "wiki.json" which vim knows that it's a json file.
-![wiki.json](https://i.imgur.com/fBXXHQd.png)
-
 2. Save it to "wiki.jjj"  which vim doesn't know that it's a json file.
-![wiki.jjj](https://i.imgur.com/iDaVDJu.png)
+![wiki.json](https://i.imgur.com/biYyflF.png)
+![wiki.jjj](https://i.imgur.com/AOx6bj5.png)
 
 NOTE: I installed the [molokai theme](https://github.com/tomasr/molokai)
 
