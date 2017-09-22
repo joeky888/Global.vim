@@ -40,9 +40,7 @@ Example
 2. Save it to "wiki.jjj"  which vim doesn't know that it's a json file.
 ![wiki.json](https://i.imgur.com/hv7GbzU.jpg)
 
-~~NOTE: I installed the [MonoKombat.vim theme](https://github.com/j16180339887/MonoKombat.vim)~~
-
-UPDATE: Color embed
+NOTE: I installed the [MonoKombat.vim theme](https://github.com/j16180339887/MonoKombat.vim)
 
 ## Install with [Vundle](https://github.com/VundleVim/Vundle.vim)
 ```vim

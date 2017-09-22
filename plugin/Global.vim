@@ -19,9 +19,9 @@ function! HighlightGlobal()
     syn match nonalphabet   "[\u007B-\u007E]"
     syn match nonalphabet   "[^\u0000-\u007F]"
     syn match lineURL       /\(https\?\|ftps\?\|git\|ssh\):\/\/\(\w\+\(:\w\+\)\?@\)\?\([A-Za-z][-_0-9A-Za-z]*\.\)\{1,}\(\w\{2,}\.\?\)\{1,}\(:[0-9]\{1,5}\)\?\S*/
-    hi alphanumeric   ctermfg=118     guifg=#A6E22E
-    hi txtNumber      ctermfg=81      guifg=#66D9EF
-    hi lineURL        ctermfg=135     guifg=#AE81FF
-    hi nonalphabet    ctermfg=161     cterm=none      guifg=#F92672     gui=none
+    hi def link alphanumeric  Function
+    hi def link txtNumber	    Define
+    hi def link lineURL	      Number
+    hi def link nonalphabet   Conditional
   endif
 endfunction
