@@ -1,4 +1,4 @@
-autocmd BufRead,BufNewFile,BufWritePost,FileType * call HighlightGlobal()
+autocmd BufRead,BufNewFile,BufWritePost,BufEnter,FileType * call HighlightGlobal()
 
 function! HighlightGlobal()
   if &filetype == "" || &filetype == "text"
