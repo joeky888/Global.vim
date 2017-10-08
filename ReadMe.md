@@ -1,6 +1,6 @@
 Highlight all files which vim does't support.
 
-Useful for system/server log files, unknow filetypes and plain text files.
+Useful for system/server log files, unknown filetypes and plain text files.
 
 Example
 ======

@@ -1,9 +1,9 @@
-autocmd BufRead,BufNewFile,BufWritePost,BufEnter,FileType * call HighlightGlobal()
+autocmd BufRead,BufNewFile,BufWritePost,BufEnter,FileType,ColorScheme,SessionLoadPost * call HighlightGlobal()
 
 function! HighlightGlobal()
   if &filetype == "" || &filetype == "text"
     syn match alphanumeric  "[A-Za-z0-9_]"
-    " Copy from $VIM/syntax/lua.vim
+    " Copied from $VIM/syntax/lua.vim
     " integer number
     syn match txtNumber     "\<\d\+\>"
     " floating point number, with dot, optional exponent
