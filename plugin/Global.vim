@@ -18,7 +18,7 @@ function! HighlightGlobal()
     syn match nonalphabet   "[\u005B-\u0060]"
     syn match nonalphabet   "[\u007B-\u007E]"
     syn match nonalphabet   "[^\u0000-\u007F]"
-    syn match lineURL       "\(https\?\|ftps\?\|git\|ssh\|file\):\/\/[[:alnum:]+&!,\'\"=@;<>\?\:|\^`\*\$%\/_#.\-\[\]\{\}()]*"
+    syn match lineURL       "\(https\?\|ftps\?\|git\|ssh\|scp\|file\):\/\/[[:alnum:]+&!,\'\"=@;<>\?\:|\^`\*\$%\/_#.\-\[\]\{\}()]*"
     hi def link alphanumeric  Function
     hi def link txtNumber     Define
     hi def link lineURL       Number
