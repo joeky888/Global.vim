@@ -19,7 +19,7 @@ function! HighlightGlobal()
     syn match nonalphabet   "[\u007B-\u007E]"
     syn match nonalphabet   "[^\u0000-\u007F]"
     syn match lineURL       "\(https\?\|ftps\?\|git\|ssh\|scp\|file\):\/\/[[:alnum:]+&!,\'\"=@;<>\?\:|\^`\*\$%\/_#.\-\[\]\{\}()]*"
-    syn match txtComment    "#.*$"
+    syn match txtComment    "^#.*$"
     syn match txtComment    "\s#.*"
     syn match txtComment    "^;.*"
     hi def link alphanumeric  Function
