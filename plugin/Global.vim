@@ -21,6 +21,8 @@ function! HighlightGlobal()
     syn match lineURL       "\(https\?\|ftps\?\|git\|ssh\|scp\|file\):\/\/[[:alnum:]+&!,\'\"=@;<>\?\:|\^`\*\$%\/_#.\-\[\]\{\}()]*"
     syn match txtComment    "^#.*$"
     syn match txtComment    "\s#.*"
+    syn match txtComment    "^\/\/.*$"
+    syn match txtComment    "\s\/\/.*"
     syn match txtComment    "^;.*"
     hi def link alphanumeric  Function
     hi def link txtNumber     Define
