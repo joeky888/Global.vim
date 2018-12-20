@@ -40,22 +40,22 @@ Example
 2. Save it to "wiki.jjj"  which vim doesn't know that it's a json file.
 ![wiki.json](https://i.imgur.com/hv7GbzU.jpg)
 
-NOTE: I installed the [MonoKombat.vim theme](https://github.com/j16180339887/MonoKombat.vim)
+NOTE: I installed the [MonoKombat.vim theme](https://github.com/joeky888/MonoKombat.vim)
 
 ## Install with [Vundle](https://github.com/VundleVim/Vundle.vim)
 ```vim
-Bundle 'j16180339887/Global.vim'
+Bundle 'joeky888/Global.vim'
 ```
 
 ## Install with [Plug](https://github.com/junegunn/vim-plug)
 ```vim
-Plug 'j16180339887/Global.vim'
+Plug 'joeky888/Global.vim'
 ```
 
 ## Install with [Pathogen](https://github.com/tpope/vim-pathogen)
 ```sh
 cd ~/.vim/bundle
-git clone --depth 1 https://github.com/j16180339887/Global.vim.git
+git clone --depth 1 https://github.com/joeky888/Global.vim.git
 ```
 
 Licence: Public domain
